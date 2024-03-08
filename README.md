@@ -8,7 +8,7 @@ Email: lindseyadams0422@gmail.com
 
 Linkedin: www.linkedin.com/in/lindsey-adams-083922dis
 
-Discord Username: lindseeeyadams
+Discord: _lindseeeyadams_
 
 
 
