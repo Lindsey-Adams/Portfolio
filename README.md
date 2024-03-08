@@ -27,7 +27,7 @@ Dive into my repository to discover my projects that reflect my growth and learn
 <br>
 
 # **BONUS** 🌵 
-Meet my do Fen (Fenrir):
+Meet my dog Fen (Fenrir):
 <br>
 <img src="https://github.com/Lindsey-Adams/Portfolio/assets/154262747/2f9d1556-e88a-43a3-a8f8-6b326a45fd98" width="200">
 
