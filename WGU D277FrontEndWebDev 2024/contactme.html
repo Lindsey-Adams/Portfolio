@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="icon" type="image/x-icon" href="favicon copy 2.ico">
+</head>
+
+<body>
+  <header>
+    <h1>Contact</h1>
+  </header>
+
+  <nav class="topnav">
+    <a href="index.html" class="myButton">Home</a>
+    <a href="phoenix.html" class="myButton">Phoenix</a>
+    <a href="sedona.html" class="myButton">Sedona</a>
+    <a href="tucson.html" class="myButton">Tucson</a>
+    <a href="sources.html" class="myButton">Sources</a>
+    <a href="contactme.html" class="myButton">Contact</a>
+  </nav>
+
+<section>
+  <p>
+  <h2>Contact Me:</h2>
+  This webpage was designed and published by me as a part of school project.
+  It showcases my developing skills in front-end web development, targeting HTML/CSS and a little bit of Javascript.
+  All photos posted in this website were taken and edited by Lindsey Adams, and are not intended to be
+  shared/distributed.
+  Please contact me at lrey283@wgu.edu as needed for questions, comments, found errors, etc!
+  <br>
+  <br>
+  </p>
+</section>
+
+  <form action="#" method="post" class="myForm">
+    <div class="myQuestions">
+      <label for="questions">Questions:</label>
+      <textarea id="myQuestions" placeholder="Questions"></textarea>
+    </div>
+
+    <div class="myContact">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" placeholder="First Name">
+
+      <lable for="lastName">Last Name:</lable>
+      <input type="text" id="lastName" placeholder="Last Name">
+
+      <label for="email1">Email:</label>
+      <input type="email" id="email1" name="email1" placeholder="Email" required>
+      <label for="email2">Email Confirmation:</label>
+      <input type="email" id="email2" name="email2" placeholder="Email Confirmation" required onblur="validateEmail()">
+
+      <button type="submit">SUBMIT</button>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+
+  <script>
+    function validateEmail() {
+      var email1 = document.getElementById("email1").value;
+      var email2 = document.getElementById("email2").value;
+      if (email1 != email2) {
+        alert("Emails do not match. Please try again.");
+        return false;
+      }
+    }
+  </script>
+
+  <h6>*This form is for example only.</h6>
+
+</body>
+
+</html>

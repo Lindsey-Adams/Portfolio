@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Tahoma, 'Arial Narrow', sans-serif;
+    font-size: 16px;
+    background-color: #ffe4c4;
+}
+
+h1 {
+    font-size: 50px;
+    color: indianred;
+    height: 100px;
+    width: 600%;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+header {
+    display: flex;
+    text-align: center;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+.myButton {
+    color: #ffe4c4;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 9px;
+    border-radius: 5px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-alternates: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-position: normal;
+    text-transform: none;
+    background-image: radial-gradient(#2a4035 0%, #2a4035 100%);
+    box-shadow: #2a403521 5px 5px 15px 5px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.myButton:hover {
+    transform: rotate(360deg);
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+}
+
+#homeContainer {
+    display: flex;
+    align-items: center;
+}
+
+#sectionHome {
+    flex-shrink: 2;
+}
+
+#asideHome {
+    flex-basis: 30%;
+    flex-wrap: nowrap;
+}
+
+
+
+
+
+
+/* NOTE: tables */
+table {
+    margin: 14px;
+    border-collapse: separate;
+    border-spacing: 7px;
+    padding: 15px;
+    width: 98%;
+    background-color: bisque;
+}
+
+caption {
+    background-color: antiquewhite;
+    color: cornflowerblue;
+    letter-spacing: 3px;
+}
+
+th {
+    vertical-align: center;
+    text-align: right;
+    font-variant: small-caps;
+    width: 50%;
+}
+
+td {
+    text-decoration: underline;
+    -webkit-text-decoration-color: cornflowerblue;
+    text-decoration-color: cornflowerblue;
+    text-decoration-thickness: 2px;
+    vertical-align: center;
+    text-align: left;
+    font-variant: small-caps;
+    width: 50%;
+
+}
+
+td.noborder {
+    border: none;
+    vertical-align: top;
+    padding: 7px;
+    color: indianred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+}
+
+
+/* NOTE: Form */
+.myForm {
+    display: flex;
+    background-color: antiquewhite;
+    border-radius: 3px;
+    padding: 1.8em;
+}
+
+.myQuestions {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.myQuestions>textarea {
+    flex: 1;
+    min-width: 18em;
+}
+
+.myContact {
+    flex: 1;
+    order: 1;
+    margin-right: 2em;
+}
+
+.myContact input {
+    width: 100%;
+}
+
+.myContact input,
+.myContact button {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.myContact button {
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    border: 0;
+}
+
+
+
+
+
+/* NOTE: Images */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.picContainer {
+    float: left;
+    width: 33%;
+    padding: 5px;
+}
+
+.clearFix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+#desertpic1 {
+    height: 300px;
+    width: auto;
+}
+
+#desertpic2 {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin: 5px;
+}
+
+#desertpic7 {
+    height: 200px;
+    width: auto;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+}
+
+#desertpic9 {
+    height: 300px;
+    width: auto;
+}
+
+#desertpic10 {
+    height: 300px;
+    width: auto;
+}
+
+#desertpic12 {
+    height: 200px;
+    width: auto;
+    float: left;
+    margin: 5px;
+}
