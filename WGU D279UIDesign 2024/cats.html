@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradigm Pet Professionals</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">
+                <img src="pppBrandIcon.png" id="pppBrandIcon"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link active" href="petinfo.html" role="b utton"
+                            data-bs-toggle="dropdown" aria-current="page" aria-expanded="false">Pet Information</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active" aria-current="true" href="cats.html">Cats</a></li>
+                            <li><a class="dropdown-item" href="dogs.html">Dogs</a></li>
+                            <li><a class="dropdown-item" href="fish.html">Fish</a></li>
+                            <li><a class="dropdown-item" href="birds.html">Birds</a></li>
+                            <li><a class="dropdown-item" href="smallanimals.html">Small
+                                    Animals</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Schedule an Appointment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header bg-custom">
+        <div>
+            <h2>Paradigm Pet Professionals</h2>
+            <h6><em>
+                    <small class="text-muted">Evidence-based pet care advice for every pet lover. </small>
+                </em></h6>
+        </div>
+
+        <!-- Main Content -->
+        <div class="container-fluid" id="mainContent">
+            <div class="card">
+                <div class="card-body">
+                    <br>
+                    <p class="fs-1 lead">Cat Care</p>
+                    <p class="fs-6">Cats were first domesticated around 7500 BCE in the western Asia region and are
+                        currently the second most popular domestic pet in the United States. While there are over 60
+                        unique documented cat breeds, care and diet can differ between breeds. However, some diets and
+                        practices are generally recommended for the well-being of your fluffy family member regardless
+                        of breed.
+
+                    </p>
+                    <br>
+                    <div class="card">
+                        <p class="fs-1 lead">Top Pet Care Tips for Cats:</p>
+                        <ul class="list-group list-group-flush fs-6">
+                            <li class="list-group-item"><span class="fw-bold"> 0 to 4-Weeks: </span><br>Kitten is
+                                nursing. Monitor kitten growth carefully.</li>
+                            <li class="list-group-item"><span class="fw-bold">Age 4-Weeks to 1-Year: </span><br>Kitten
+                                begins eating a combination of soft and hard foods. Consult with your vet for
+                                recommendations for your kitten's dietary needs. </li>
+                            <li class="list-group-item"><span class="fw-bold">Age 1-Year to 7-Years: </span><br>Cat now
+                                needs less food as growth stage is slowing or ending. Prevent your cat from overeating
+                                by providing x2 meals a day.</li>
+                            <li class="list-group-item"><span class="fw-bold">Age 7-Years and More: </span><br>Cats need
+                                less fats and calories as they age (just like humans). Look for cat food that includes
+                                high quality protein. </li>
+                            <li class="list-group-item"></li>
+                        </ul>
+                    </div>
+                    <br>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 g-1 d-flex align-items-baseline" id="catsContainer">
+                    <div class="col">
+                        <div class="card border-0" id="catCard">
+                            <img src="kittenspic.jpg" class="card-img-top img-fluid "
+                                alt="a group of kittens clustered together on a white background">
+                            <div class="card-body">
+                                <h5 class="card-title fs-1 lead">Age 0 to 4-Weeks</h5>
+                                <p class="card-text fs-5">It is important the queen (a term commonly used for a female
+                                    cat that is either pregnant or nursing) directly nurse her young if possible.
+                                    Monitor your kitten’s growth closely to make sure its growth rate is progressing
+                                    steadily. If any kitten is not growing at a sufficient rate, a caretaker might need
+                                    to feed the kitten directly either with a bottle or a feeding tube.
+                                    <br>
+                                    <br>
+                                <p class="fs-6 lead">Some reasons why
+                                    kittens might not gain weight appropriately include the following:
+                                <ul class="list-group list-group-flush fs-6">
+                                    <li class="list-group-item">• too many other siblings are competing for mom's milk
+                                    </li>
+                                    <li class="list-group-item">• gastrointestinal disease</li>
+                                    <li class="list-group-item">• environmental conditions such as extreme heat or cold,
+                                        or unsanitary
+                                        conditions</li>
+                                </ul>
+                                </p>
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0" id="catCard">
+                            <img src="kittenspic3.jpg" class="card-img-top img-fluid"
+                                alt="a kitten laying on its side looking forward on an orange background">
+                            <div class="card-body">
+                                <h5 class="card-title fs-1 lead">Age 4-Weeks to 1-Year</h5>
+                                <p class="card-text fs-5">Kittens can start being introduced to soft wet kitten food
+                                    typically around three to four weeks after birth. According to the <a
+                                        href="https://www.aspca.org/pet-care/cat-care/cat-nutrition-tips"
+                                        class="customLink" target="_blank">ASPCA,</a>
+                                    kittens at
+                                    this age should eat half to one cup of dry kitten food or six to nine ounces of wet
+                                    kitten food per day. If your kitten has difficulties eating hard food, a small
+                                    amount of water can be added to soften the food. Cat food that is optimized for
+                                    kittens provides the additional nutrients that are needed for growth, energy, and
+                                    wellness. Depending on the breed, your cat may have different dietary requirements.
+                                    You should always consult with your veterinarian for recommendations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0" id="catCard">
+                            <img src="catpic4.jpg" class="card-img-top img-fluid"
+                                alt="an orange and white cat sitting while licking its chops on a pink background">
+                            <div class="card-body">
+                                <h5 class="card-title fs-1 lead">Age 1-Year to 7-Years</h5>
+                                <p class="card-text fs-5">This age is when kittens reach the cat stage and do not need
+                                    as many nutrients. At this age, their level of activity decreases, and so does their
+                                    metabolism. It is <strong>not</strong> recommended to leave food out for the cats
+                                    all day. Instead,
+                                    provide food a couple times a day so they eat meals rather than snacking throughout
+                                    the day. This practice reduces the risk of obesity and other weight-related feline
+                                    ailments.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0" id="catCard">
+                            <img src="catpic3.jpg" class="card-img-top img-fluid"
+                                alt="a cat facing the camera with sunlight illuminating its' eyes on a bluesky background">
+                            <div class="card-body">
+                                <h5 class="card-title fs-1 lead">Age 7-Years and More</h5>
+                                <p class="card-text fs-5">Much like many living organisms, the body begins to
+                                    deteriorate and experience a lot of changes. Cats at this age should eat less fats
+                                    and calories and more quality proteins. This means when you are purchasing packaged
+                                    foods for your cat, look for food that states a particular protein (such as
+                                    "salmon") and <strong>not</strong> just a category (such as fish). This usually
+                                    means they are
+                                    byproducts, or combinations, of lesser quality proteins.</p>
+                            </div>
+                        </div>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container-fluid text-center">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <br>
+                    <br>
+                    <p class="lead text-muted">Looking for basic pet care advice for the most common type of pets? </p>
+                    <button type="button" class="btn btn-outline-primary"><a href="contact.html" class="customLink"
+                            target="_blank">Schedule an Appointment</a>
+                    </button>
+                    <br>
+                    <br>
+                    <br>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer custom-footer-bg">
+        <br>
+        <p class="fs-5" style="color: #003B6D;">© 2024 Paradigm Pet Professionals.</p>
+        <p class="text-muted">
+            All rights reserved.
+            <br><a href="#" class="customLink" target="_blank">Privacy Policy</a>
+            <br><a href="about.html" class="customLink" target="_blank">About Us</a>
+            <br><a href="contact.html" class="customLink" target="_blank">Schedule an Appointment</a>
+        </p>
+
+        <ul class="nav justify-content-center fs-6">
+            <li class="nav-item">
+                <a class="nav-link customLink" href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link customLink" href="#" Link target="_blank"><i class="bi bi-instagram"></i></a>
+            </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link customLink" href="#" Link target="_blank"><i class="bi bi-twitter"></i></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link customLink" href="#" Link target="_blank"><i class="bi bi-threads"></i></a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
