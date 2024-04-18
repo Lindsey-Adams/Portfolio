@@ -9,7 +9,7 @@ My name is Lindsey, and I am a student studying software engineering at WGU (fal
  >+ Job Accommodation Network: https://askjan.org
  >+ Exceptional Individuals: https://exceptionalindividuals.com
 >  <br>
->Want to learn more about your cognitive skills our what neurodiverse employees can contribute to your company? Take a look at the <a href="https://exceptionalindividuals.com/candidates/neurodiversity-resources/spiky-profile/">"Spiky Profile"</a> by <a href="https://exceptionalindividuals.com">Exceptional Individuals</a> to learn more about your strengths, learning styles, and challenges (I am not a paid sponsor/affiliate). 
+>Want to learn more about your cognitive skills? Or what neurodiverse employees can contribute to your company? Take a look at the <a href="https://exceptionalindividuals.com/candidates/neurodiversity-resources/spiky-profile/">"Spiky Profile"</a> by <a href="https://exceptionalindividuals.com">Exceptional Individuals</a> to learn more about your strengths, learning styles, and challenges (I am not a paid sponsor/affiliate). 
 <br>
 <br>
 <br>
