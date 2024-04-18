@@ -29,6 +29,8 @@ My name is Lindsey, and I am a student studying software engineering at WGU (fal
 
 + **WGU D279 UI Design 2024** -- Completed final project for D279 User Interface Design class. Attached documents includes project analysis,mid-fidelity wireframe, and coded prototype for this class project.
 
++ **WGU D335 Intro to Programming in Python** -- Includes small projects created during the class as well as while learning foundational skills via Udemy's "100 Days of Code: The Complete Python Bootcamp." This is currently a work in progress.
+
 + 📍More to come...
 <br>
 <br>
